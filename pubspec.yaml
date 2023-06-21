@@ -1,0 +1,21 @@
+name: generate_pdf
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  pdf: ^3.1.0
+  path_provider: ^2.0.1
+  open_filex: ^4.3.2
+  intl: ^0.17.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
